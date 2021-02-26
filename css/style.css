@@ -1,33 +1,3 @@
-/*!
-Theme Name: plexidoc
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: plexidoc
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-plexidoc is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-
-#container {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 html,
 body {
     padding: 0;
@@ -35,12 +5,10 @@ body {
     /* scroll-behavior: smooth; */
     overflow-x: hidden;
     width: 100vw;
-    /* overflow: hidden; */
     font-family: 'Noto Sans', sans-serif;
 }
 
-.container-fluid,
-.no-padding {
+.container-fluid {
     padding: 0;
     margin: 0;
 }
@@ -222,39 +190,6 @@ body {
 /*End CSS Menu */
 
 
-/* Start Css Carousel */
-
-.carousel-inner {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    margin: 2px;
-    cursor: pointer;
-    text-indent: -999px;
-    border-radius: 5px;
-    background-color: #2168a1 !important;
-    border: 1px solid white;
-}
-
-.carousel-indicators .active {
-    height: 12px;
-    width: 12px;
-    background-color: #ffd118 !important;
-}
-
-.carousel-inner img {
-    height: 550px;
-    width: auto;
-}
-
-
-/* End CSS Carousel */
-
-
 /* Start CSS Content Header */
 
 .header-banner {
@@ -263,8 +198,6 @@ body {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    /* background: url(./images/banner.png) no-repeat center/cover; */
-    /* background-color: yellow; */
 }
 
 .content-header {
@@ -403,7 +336,7 @@ button.btn-hover:hover span::after {
 
 /* Start CSS About Us */
 
-.about-us {
+.aboutus {
     padding-top: 75px;
 }
 
@@ -531,20 +464,20 @@ button.btn-hover:hover span::after {
 
 /* Start CSS Easy Content*/
 
-.features-fold {
+.features {
     padding-top: 25px;
 }
 
-.easy-contect {
+.service {
     padding-top: 50px;
 }
 
-.image-static {
+.image-service {
     width: 100%;
     height: 100%;
 }
 
-.image-static img {
+.image-service img {
     width: 100%;
     background-size: cover;
 }
@@ -565,57 +498,57 @@ button.btn-hover:hover span::after {
 }
 
 
-/* End Css Easy Content */
+/* End CSS Easy Content */
 
 
-/*start css tesimonial*/
+/*start CSS Testimonial*/
 
-.tesimonial {
+.testimonial {
     padding: 75px 0 0 0;
 }
 
-.tesimonial .tesimonial-left {
+.testimonial .testimonial-left {
     text-align: right;
     background-color: #F7ECDB;
 }
 
-.tesimonial-image {
+.testimonial-image {
     padding-right: 0;
     padding-left: 0;
 }
 
-.tesimonial-image img {
+.testimonial-image img {
     width: 100%;
     height: 100%;
 }
 
-.tesimonial .tesimonial-left h2 {
+.testimonial .testimonial-left h2 {
     color: #ff9100;
     font-weight: bold;
     font-size: 32px;
     text-transform: uppercase;
 }
 
-.tesimonial .tesimonial-left .tesimonial-content span i {
+.testimonial .testimonial-left .testimonial-content span i {
     color: #ff9100;
 }
 
-.tesimonial .tesimonial-left .tesimonial-content h2 {
+.testimonial .testimonial-left .testimonial-content h2 {
     font-size: 30px;
 }
 
-.tesimonial .tesimonial-left .tesimonial-content p {
+.testimonial .testimonial-left .testimonial-content p {
     font-size: 22px;
     color: #0d3256;
     clear: both;
 }
 
-.tesimonial-left .tesimonial-content {
+.testimonial-left .testimonial-content {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.box-tesimonial-content {
+.box-testimonial-content {
     padding: 20px;
     border: 2px solid #0f3561;
     border-radius: 10px;
@@ -623,28 +556,28 @@ button.btn-hover:hover span::after {
     justify-content: center;
 }
 
-.box-tesimonial-content .box-tes-content-left,
-.box-tesimonial-content .box-tes-content-right {
+.box-testimonial-content .box-tes-content-left,
+.box-testimonial-content .box-tes-content-right {
     display: inline-block;
     padding: 0 20px;
 }
 
-.box-tesimonial-content .box-tes-content-left {
+.box-testimonial-content .box-tes-content-left {
     border-right: 1px solid #0f3561;
 }
 
-.box-tesimonial-content .box-tes-content-left h2,
-.box-tesimonial-content .box-tes-content-right h2 {
+.box-testimonial-content .box-tes-content-left h2,
+.box-testimonial-content .box-tes-content-right h2 {
     color: #0f3561;
 }
 
-.box-tesimonial-content p {
+.box-testimonial-content p {
     font-size: 18px;
     line-height: 1;
     margin-bottom: 0;
 }
 
-.tesimonial .tesimonial-image {
+.testimonial .testimonial-image {
     position: relative;
     text-align: right;
     color: white;
@@ -663,7 +596,7 @@ button.btn-hover:hover span::after {
     margin-bottom: 2%;
 }
 
-.tesimonial-left .quote-right {
+.testimonial-left .quote-right {
     width: 10% !important;
     float: right;
     clear: both;
@@ -695,16 +628,16 @@ button.btn-hover:hover span::after {
     font-size: 24px;
 }
 
-.tesimonial .owl-carousel .owl-stage-outer {
+.testimonial .owl-carousel .owl-stage-outer {
     border-radius: 10px;
 }
 
-.tesimonial-image .bottom-right p {
+.testimonial-image .bottom-right p {
     text-shadow: 3px 3px 5px #D6d6d6;
 }
 
 
-/* End CSS Tesimonial */
+/* End CSS Testimonial */
 
 
 /*Style CSS Plans*/
