@@ -32,12 +32,6 @@ jQuery(document).ready(function() {
         }
     });
 });
-/*var countChecked = function() {
-  var n = $( "input:checked" ).length;
-  $( "div" ).text( n + (n === 1 ? " is" : " are") + " checked!" );
-};
-countChecked();
-$( "input[type=checkbox]" ).on( "click", countChecked );*/
 
 jQuery(document).ready(function() {
     var widthOfImage = jQuery('.additional-top').width();
@@ -51,19 +45,6 @@ jQuery(window).resize(function() {
     jQuery('.additional-right').width(widthOfImage).height(heightOfImage);
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-
-//     let myBtns=document.querySelectorAll('.button-header');
-//     myBtns.forEach(function(btn) {
-
-//         btn.addEventListener('click', () => {
-//           myBtns.forEach(b => b.classList.remove('active'));
-//           btn.classList.add('active');
-//         });
-
-//     });
-
-// });
 jQuery(document).ready(function() {
     jQuery(".people-img").click(function() {
         var data_dot = jQuery(this).data('id');
