@@ -39,7 +39,7 @@
                                     <a class="nav-link" href="#member">שירותים</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#plans">תוכניות</a>
+                                    <a class="nav-link" href="#program">תוכניות</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#service">מידע נוסף</a>
@@ -147,13 +147,71 @@
 
         <!-- Start Section Testimonial -->
         <section class="testimonial" id="testimonial">
-            <div class="container">
+            <div class="owl-carousel owl-theme container">
                 <div class="row">
                     <div class="col-md-8 testimonial-text">
                         <div class="row">
                             <div class="col-md-7 offset-md-4 testimonial-content">
                                 <h2 class="small-title">תקדם לפלקסידוק</h2>
-                                <span><i class="fas fa-quote-right"></i></span>
+                                <img src="./images/icon-quote.png" class="quote-right" alt="#">
+                                <p>מערכת הרפואית המתקדמת ביותר בעולם לניהול מרפאה ומטופלים. מערכת של רופאים בשביל רופאים</p>
+                                <div class="box-testimonial-content">
+                                    <div class="box-content-left">
+                                        <h2 class="small-title">%26</h2>
+                                        <p>ומטופלים</p>
+                                    </div>
+                                    <div class="box-content-right">
+                                        <h2 class="small-title">+130</h2>
+                                        <p>ומטופלים</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 testimonial-image">
+                        <img src="./images/doctor.jpg" alt="#">
+                        <div class="bottom-right">
+                            <h2 class="small-title">ערכת </h2>
+                            <p>ערכת של רופאים</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 testimonial-text">
+                        <div class="row">
+                            <div class="col-md-7 offset-md-4 testimonial-content">
+                                <h2 class="small-title">תקדם לפלקסידוק</h2>
+                                <img src="./images/icon-quote.png" class="quote-right" alt="#">
+                                <p>מערכת הרפואית המתקדמת ביותר בעולם לניהול מרפאה ומטופלים. מערכת של רופאים בשביל רופאים</p>
+                                <div class="box-testimonial-content">
+                                    <div class="box-content-left">
+                                        <h2 class="small-title">%26</h2>
+                                        <p>ומטופלים</p>
+                                    </div>
+                                    <div class="box-content-right">
+                                        <h2 class="small-title">+130</h2>
+                                        <p>ומטופלים</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 testimonial-image">
+                        <img src="./images/doctor.jpg" alt="#">
+                        <div class="bottom-right">
+                            <h2 class="small-title">ערכת </h2>
+                            <p>ערכת של רופאים</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 testimonial-text">
+                        <div class="row">
+                            <div class="col-md-7 offset-md-4 testimonial-content">
+                                <h2 class="small-title">תקדם לפלקסידוק</h2>
+                                <img src="./images/icon-quote.png" class="quote-right" alt="#">
                                 <p>מערכת הרפואית המתקדמת ביותר בעולם לניהול מרפאה ומטופלים. מערכת של רופאים בשביל רופאים</p>
                                 <div class="box-testimonial-content">
                                     <div class="box-content-left">
@@ -375,13 +433,13 @@
                     <div class="col-12 col-sm-12 col-md-6">
                         <div class="card-out-team-image">
                             <div class="people">
-                                <img data-id='["image-people-one", "dot-one"]' class="people-img people1 active" src="assets/images/photo1.png" alt="#">
-                                <img data-id='["image-people-two", "dot-two"]' class="people-img people2" src="assets/images/photo2.png" alt="#">
+                                <img data-id='dot-one' class="people-img people1 unactive" src="./images/photo1.png" alt="#">
+                                <img data-id='dot-two' class="people-img people2 active" src="./images/photo2.png" alt="#">
                             </div>
                             <div class="stethoscope">
-                                <img src="assets/images/tainghe.png" alt="#" class="">
-                                <div class="dots-people dots-people-one active" id="dot-one"></div>
-                                <div class="dots-people dots-people-two" id="dot-two"></div>
+                                <img src="./images/tainghe.png" alt="#" class="">
+                                <div data-value='image-people-one' class="dots-people dots-people-one" id="dot-one"></div>
+                                <div data-value='image-people-two' class="dots-people dots-people-two active" id="dot-two"></div>
                             </div>
                         </div>
                     </div>
@@ -389,7 +447,7 @@
                         <div class="card-out-team-content active" id="image-people-one">
                             <h2 class="medium-title">האנשים מאחורי פלקסידוק</h2>
                             <h2 class="small-title">לפלקסידוק</h2>
-                            <p>פלקסידוק היא מערכת אינטגרטיבית בענן לניהול מרפאה ומטופלים מא' ועד ת'. המערכת פלקסידוק היא מערכת אינטגרטיבית בענן לניהול מרפאה ומטופלים מא' ועד ת'. המערכת פלקסידוק היא מערכת אינטגרטיבית בענן לניהול מרפאה ומטופלים מא' ועד ת'.
+                            <p>פלקסידוק היא מערכת אינטגרטיבית בענן לניהול מרפאה ומטופלים מא' ועד ת' . המערכת פלקסידוק היא מערכת אינטגרטיבית בענן לניהול מרפאה ומטופלים מא' ועד ת' . המערכת פלקסידוק היא מערכת אינטגרטיבית בענן לניהול מרפאה ומטופלים מא' ועד ת'.
                                 המערכת
                             </p>
                         </div>
@@ -457,8 +515,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 additional-right">
-                        <div class="row add-image-first"><img src="assets/images/cards_illustrations.png" alt="#"></div>
-                        <div class="row add-image-second"><img src="assets/images/photo3.png" alt="#"></div>
+                        <div class="row add-image-first"><img src="./images/cards_illustrations.png" alt="#"></div>
+                        <div class="row add-image-second"><img src="./images/photo3.png" alt="#"></div>
                     </div>
                 </div>
             </div>
@@ -492,25 +550,25 @@
                             </div>
                         </div>
                         <div class="col-md-6 offset-md-2 contact-right">
-                            <form action="/index.html" class="form-contact">
+                            <form action="./index.html" class="form-contact">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <input class="form-control" id="surname" placeholder="שם משפחה" type="text">
+                                        <input class="form-control" id="surname" placeholder="שם משפחה" type="text" required>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input class="form-control" id="firstname" placeholder="שם" type="text">
+                                        <input class="form-control" id="firstname" placeholder="שם" type="text" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <input class="form-control" id="phone" placeholder="טלפון" type="text">
+                                        <input class="form-control" id="phone" placeholder="טלפון" type="text" required>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input class="form-control" id="mail" placeholder="מייל" type="email">
+                                        <input class="form-control" id="mail" placeholder="מייל" type="email" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" id="message" placeholder="הודעה" rows="10"></textarea>
+                                    <textarea class="form-control" id="message" placeholder="הודעה" rows="10" required></textarea>
                                 </div>
                                 <button type="submit" id="send-mail" class="button-header button-right float-right btn active" name="contact-mail">
                                     נסה בחינם
